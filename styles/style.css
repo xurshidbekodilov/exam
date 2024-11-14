@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "League Spartan",sans-serif;
+    background-color: rgba(239, 250, 250, 1);
+}
+.form-sec{
+    width: 1110px;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+    border: 1px solid #ddd;
+    padding: 35px;
+}
+form h1{
+    font-size: 44px;
+    margin-bottom: 36px;
+}
+#logotip-url{
+    font-size: 24px;
+}
+#img-url{
+    border: 2px solid rgb(165, 165, 165);
+    outline: none;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+    height: 44px;
+    margin-top: 12px;
+    margin-bottom: 24px;
+    font-size: 16px;
+}
+#label-company{
+    font-size: 24px;
+}
+#company{
+    border: 2px solid rgb(165, 165, 165);
+    outline: none;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+    height: 44px;
+    margin-top: 12px;
+    margin-bottom: 24px;
+    font-size: 16px;
+}
+.checkbox-sec{
+    display: flex;
+    font-size: 24px;
+    gap: 50px;
+    margin-bottom: 24px;
+}
+#label-lavozim{
+    font-size: 24px;
+}
+#job{
+    border: 2px solid rgb(165, 165, 165);
+    outline: none;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+    height: 44px;
+    margin-top: 12px;
+    margin-bottom: 24px;
+    font-size: 16px;
+}       
+.select-sec{
+    display: flex;
+    gap: 50px;
+}
+
+.select-sec label{
+    font-size: 24px;
+}
+.select-sec select{
+    width: 145px;
+    height: 35px;
+    font-size: 16px;
+    padding: 8px;
+    margin-top: 10px;margin-bottom: 24px;
+}
+#skills{
+    font-size: 24px;
+}
+.skills-sec{
+    display: flex;
+    font-size: 20px;
+    gap: 50px;
+    margin-bottom: 24px;
+    margin-top: 12px;
+}
+button{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(33, 176, 176);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    transition: all 0.8s ease;
+}
+button:hover{
+    transform: scale(1.05);
+}
+.card{
+    width: 1110px;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 32px 40px 31px 40px;
+    display: flex;
+    box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+}
+.card .main-sec{
+    display: flex;
+    gap: 24px;
+}
+.main-sec img{
+    width: 88px;
+    height: 88px;
+    border: none;
+    border-radius: 50%;
+}
+#name-of-company{
+    color: rgba(92, 165, 165, 1);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16.56px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-right: 15px;
+}
+#new-feature{
+    width: 51px;
+    height: 24px;
+    padding: 7px 8px 4px 8px;
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+    background-color: rgba(92, 165, 165, 1);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: -0.10769230872392654px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    margin-right: 8px;
+}
+#featured-feature{
+    width: 79px;
+    height: 24px;
+    text-align: center;
+    border: none;
+    padding: 7px 8px 4px 8px;
+    border-radius: 12px;
+    background-color: rgba(43, 57, 57, 1);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: -0.10769230872392654px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;  
+    color: white;
+}
+.head-of-dates{
+    margin-bottom: 12px;
+}
+#user-job{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;  
+    color: rgba(43, 57, 57, 1);
+}
+.extra-dates{
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.13846154510974884px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(124, 143, 143, 1);
+    margin-top: 8px;
+}
+.about-user{
+    margin-top: 7px;
+}
+.right-sec{
+    text-align: right;
+    width: 60%;
+}
+.right-sec img{
+    width: 25px;
+    height: 25px;
+    margin-left: 625px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.right-sec img:hover{
+    transform: scale(1.1);
+}
+#skills-at-card span{
+    text-align: right;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.1230769231915474px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-color: rgba(239, 250, 250, 1);
+    color: rgba(92, 165, 165, 1);
+    border-radius: 4px;
+    padding: 6px 9px 4px 10px;
+}
+#skills-at-card{
+    margin-top: 25px;
+    margin-left: 10px;
+}
